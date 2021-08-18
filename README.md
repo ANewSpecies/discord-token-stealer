@@ -1,7 +1,7 @@
-# Discord token stealer info
+# Discord Token Stealer Info
 
 This program stealing;
-- Token from the discord app (chrome,opera,brave,discordcanary,discord e.t.c)
+- Token from the discord app (discordcanary, discord)
 
 Disclaimer
 - I, the author, am in no way responsible for any for any steal, action or malicious use.
