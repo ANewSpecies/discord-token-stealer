@@ -1,7 +1,7 @@
 # Discord Token Stealer Info
 
 This program stealing;
-- Token from the discord app (discordcanary, discord)
+- Token from the discord app (discordcanary, discord, chromium browsers)
 
 Disclaimer
 - I, the author, am in no way responsible for any for any steal, action or malicious use.
