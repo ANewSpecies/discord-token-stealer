@@ -8,7 +8,6 @@ import java.util.ArrayList;
 
 public class Main
 {
-
 	public static String webhookURL = "WEBHOOK_URL";
 	public static String avatarURL = "WEBHOOK_AVATAR_URL";
 	public static String webhookNickname = "WEBHOOK_NICKNAME";
